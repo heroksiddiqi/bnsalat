@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link href="libraries/css/ratchet.min.css" rel="stylesheet">
+    <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+      <script type="text/javascript" charset="utf-8">
+         function exitFromApp()
+         {
+             navigator.app.exitApp();
+         }
+      </script>
+        <style>
+        .home-tbl{
+            border: 1px solid;
+            border-collapse: collapse;
+            width:100%;
+            height:70%;
+            text-align: center;
+            background: #396afc;
+            background: -webkit-linear-gradient(to bottom, #2948ff, #396afc);
+            background: linear-gradient(to bottom, #2948ff, #396afc);
+        }
+        .cellherok{
+            border:3px dotted;
+            padding:10px;
+            width:33%;
+
+        }
+
+        .cellherokfull{
+            border:1px solid;
+            padding:10px;
+
+        }
+
+
+        </style>
+    </head>
+<body class="gradient">
+        <!-- Make sure all your bars are the first things in your <body> -->
+        <header class="bar bar-nav">
+            <h1 class="title">সহীহ নামাজ</h1>
+        </header>
+        <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+<div class="content" style="font-size:17px; margin:15px;color:#fff;">
+<table class="home-tbl">
+
+    <tr class="first-row">
+        <td class="cellherok"><a href="chapters/01_qiyam.html">ক্বিয়াম</a></td>
+        <td class="cellherok"><a href="chapters/02_ruqu.html">রুকু</a></td>
+        <td class="cellherok"><a href="chapters/03_sijdah.html">সিজদাহ</a></td>
+    </tr>
+
+
+    <tr class="second-row">
+        <td class="cellherok"><a href="chapters/04_tashahud.html">তাশাহুদ</a></td>
+        <td class="cellherok"><a href="chapters/05_thirdraqat.html">তৃতীয় রাকাত</a></td>
+        <td class="cellherok"><a href="chapters/06_salam.html"> সালাম ফিরানো</a></td>
+    </tr>
+</table>
+<br>
+
+<table class="gradient" style="width:100%">
+    <td class="cellherokfull pull-center"><a href="chapters/07_zikr.html" style="width:100%">নামাজ শেষে  যিকর</a>
+    </td>
+</table>
+<br>
+<table class="gradient" style="width:100%">
+    <td class="cellherokfull pull-center"><a href="chapters/08_faq.html">কিছু প্রশ্ন এবং উত্তর</a>
+    </td>
+</table>
+<br>
+<table class="gradient" style="width:100%">
+    <td class="cellherokfull pull-center"><a href="chapters/09_ablution.html">ওজুর সঠিক নিয়ম</a>
+    </td>
+</table>
+<br>
+<table class="gradient" style="width:100%">
+    <td class="cellherokfull pull-center"><a href="chapters/10_concentration.html">নামাজে মনোযোগ ধরে রাখার নিয়ম</a>
+    </td>
+</table>
+<br>
+<table class="gradient" style="width:100%">
+    <td class="cellherokfull pull-center"><a href="chapters/11_appendix.html">পরিশিষ্ট</a>
+    </td>
+</table>
+<br><br><br>
+</div>
+<!--footer-->
+<br><br>
+<footer class="bar bar-footer" style="">
+        <a href="chapters/00_info.html" class="btn btn-positive pull-left" ><em>&nbsp; i &nbsp;</em></a>
+
+        <button class="btn btn-negative pull-right" onclick="exitFromApp()" ><em>&nbsp;x&nbsp;</em></button>
+</footer>
+    </body>
+</html>
