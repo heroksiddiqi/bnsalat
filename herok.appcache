@@ -1,5 +1,5 @@
 CACHE MANIFEST
-libraries/css/ratchet.min.css
+libraries/css/ratchet.min_regular.css
 libraries/css/ratchet.min.css
 libraries/css/ratchet.min_calm.css
 libraries/css/ratchet.min_novel.css
@@ -7,17 +7,6 @@ libraries/css/ratchet.min_regular.css
 libraries/img/camelseq1.jpg
 libraries/img/camelseq2.jpg
 libraries/img/camelseq3.jpg
-libraries/img/qiyam.jpg
-libraries/img/qiyam2.jpg
-libraries/img/ruquright1.jpg
-libraries/img/ruquright2.jpg
-libraries/img/ruquwrong.jpg
-libraries/img/sujjodright.jpg
-libraries/img/sujjwrong.jpg
-libraries/img/thood2nd1.jpg
-libraries/img/thood2nd2.jpg
-libraries/img/thood4rth.jpg
-libraries/img/headerlogo.png
 index.html
 chapters/01_qiyam.html
 chapters/02_ruqu.html
@@ -30,3 +19,14 @@ chapters/08_faq.html
 chapters/09_ablution.html
 chapters/10_concentration.html
 chapters/11_appendix.html
+libraries/img/qiyam.jpg
+libraries/img/qiyam2.jpg
+libraries/img/ruquright1.jpg
+libraries/img/ruquright2.jpg
+libraries/img/ruquwrong.jpg
+libraries/img/sujjodright.jpg
+libraries/img/sujjwrong.jpg
+libraries/img/thood2nd1.jpg
+libraries/img/thood2nd2.jpg
+libraries/img/thood4rth.jpg
+libraries/img/headerlogo.png
