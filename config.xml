@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.bnsalat.universal" version="1.1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.bnsalat.universal" version="3.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>সহীহ নামাজ</name>
     <description>
         নামাজ সম্পর্কে সবচেয়ে সবচেয়ে ভালো বইগুলো থেকে বাছাইকৃত লেখাগুলোকে আরও সহজ, সাবলীল ভাষায় লিখিত বই 
